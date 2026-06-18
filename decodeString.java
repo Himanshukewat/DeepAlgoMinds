@@ -1,4 +1,5 @@
 class Solution {
+    //Brute Force
     public String decodeString(String s) {
         while(s.contains("]")){
             int r = s.indexOf(']');
@@ -35,4 +36,36 @@ class Solution {
         }
         return s;
     }
+    // solved with stack
+    public String decodeString(String s) {
+        Stack<Integer> cntStack = new Stack<>();
+        Stack<String> strStack = new Stack<>();
+
+        String preStr  = "";
+        int curr = 0;
+        for(int i=0; i<s.length(); i++){
+            char c = s.charAt(i);
+            if(Character.isDigit(c)){
+                curr = curr * 10 + (c - '0');
+            } else if( c == '['){
+                cntStack.push(curr);
+                strStack.push(preStr);
+                curr = 0;
+                preStr = "";
+            } else if(c == ']'){
+                int repeat = cntStack.pop();
+                String previous = strStack.pop();
+                StringBuilder temp = new StringBuilder();
+                for(int j = 0; j < repeat; j++){
+                    temp.append(preStr);
+                }
+
+                preStr = previous + temp.toString();
+            } else{
+                preStr  += c;
+            }
+        }
+        return preStr;
+    }
+
 }
