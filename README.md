@@ -53,10 +53,12 @@ Happy Coding! 🚀
 ## Linked List
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0876-middle-of-the-linked-list) |
 ## Two Pointers
 |  |
 | ------- |
+| [0141-linked-list-cycle](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0141-linked-list-cycle) |
 | [0876-middle-of-the-linked-list](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0876-middle-of-the-linked-list) |
 ## String
 |  |
@@ -70,4 +72,8 @@ Happy Coding! 🚀
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0394-decode-string) |
+## Hash Table
+|  |
+| ------- |
+| [0141-linked-list-cycle](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0141-linked-list-cycle) |
 <!---LeetCode Topics End-->
