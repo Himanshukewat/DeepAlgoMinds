@@ -47,3 +47,15 @@ A significant part of this journey is supported by the **CPU SkillXcelerator (In
 New solutions will be added regularly as I continue exploring more DSA concepts and problem-solving patterns.
 
 Happy Coding! 🚀
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Linked List
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0876-middle-of-the-linked-list) |
+## Two Pointers
+|  |
+| ------- |
+| [0876-middle-of-the-linked-list](https://github.com/Himanshukewat/DeepAlgoMinds/tree/master/0876-middle-of-the-linked-list) |
+<!---LeetCode Topics End-->
